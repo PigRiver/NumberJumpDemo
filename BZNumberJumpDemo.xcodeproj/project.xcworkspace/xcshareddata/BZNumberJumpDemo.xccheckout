@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>47CEC138-71BD-4078-8524-EDF54E18F80F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BZNumberJumpDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7AF243C37DE239871FEB134D14A3DF20A52DA72A</key>
+		<string>https://github.com/PigRiver/NumberJumpDemo.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BZNumberJumpDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7AF243C37DE239871FEB134D14A3DF20A52DA72A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/PigRiver/NumberJumpDemo.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7AF243C37DE239871FEB134D14A3DF20A52DA72A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7AF243C37DE239871FEB134D14A3DF20A52DA72A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>NumberJumpDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>

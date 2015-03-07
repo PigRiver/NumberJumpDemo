@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "NJDBezierCurve.h"
+#import "CACustomTextLayer.h"
 
 @interface NJDTestViewController : UIViewController {
-    CATextLayer *textLayer;
+    CACustomTextLayer *textLayer;
 }
 
 @end

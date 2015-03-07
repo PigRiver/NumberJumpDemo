@@ -20,8 +20,8 @@
 		0A08E39A1962667C00A7B852 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A08E3981962667C00A7B852 /* InfoPlist.strings */; };
 		0A08E39C1962667C00A7B852 /* BZNumberJumpDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A08E39B1962667C00A7B852 /* BZNumberJumpDemoTests.m */; };
 		0A08E3A7196266A200A7B852 /* NJDTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A08E3A6196266A200A7B852 /* NJDTestViewController.m */; };
-		0A08E3B61962DD2500A7B852 /* CATextLayer+NumberJump.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A08E3B31962DD2500A7B852 /* CATextLayer+NumberJump.m */; };
 		0A08E3B71962DD2500A7B852 /* NJDBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A08E3B51962DD2500A7B852 /* NJDBezierCurve.m */; };
+		32A70FC81AAAA74500A50C92 /* CACustomTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 32A70FC71AAAA74500A50C92 /* CACustomTextLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +53,10 @@
 		0A08E39B1962667C00A7B852 /* BZNumberJumpDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZNumberJumpDemoTests.m; sourceTree = "<group>"; };
 		0A08E3A5196266A200A7B852 /* NJDTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJDTestViewController.h; sourceTree = "<group>"; };
 		0A08E3A6196266A200A7B852 /* NJDTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJDTestViewController.m; sourceTree = "<group>"; };
-		0A08E3B21962DD2500A7B852 /* CATextLayer+NumberJump.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATextLayer+NumberJump.h"; sourceTree = "<group>"; };
-		0A08E3B31962DD2500A7B852 /* CATextLayer+NumberJump.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATextLayer+NumberJump.m"; sourceTree = "<group>"; };
 		0A08E3B41962DD2500A7B852 /* NJDBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJDBezierCurve.h; sourceTree = "<group>"; };
 		0A08E3B51962DD2500A7B852 /* NJDBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJDBezierCurve.m; sourceTree = "<group>"; };
+		32A70FC61AAAA74500A50C92 /* CACustomTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CACustomTextLayer.h; sourceTree = "<group>"; };
+		32A70FC71AAAA74500A50C92 /* CACustomTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CACustomTextLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,8 +159,8 @@
 		0A08E3B11962DD2500A7B852 /* NJDNumberJump */ = {
 			isa = PBXGroup;
 			children = (
-				0A08E3B21962DD2500A7B852 /* CATextLayer+NumberJump.h */,
-				0A08E3B31962DD2500A7B852 /* CATextLayer+NumberJump.m */,
+				32A70FC61AAAA74500A50C92 /* CACustomTextLayer.h */,
+				32A70FC71AAAA74500A50C92 /* CACustomTextLayer.m */,
 				0A08E3B41962DD2500A7B852 /* NJDBezierCurve.h */,
 				0A08E3B51962DD2500A7B852 /* NJDBezierCurve.m */,
 			);
@@ -265,9 +265,9 @@
 			files = (
 				0A08E3B71962DD2500A7B852 /* NJDBezierCurve.m in Sources */,
 				0A08E3831962667C00A7B852 /* main.m in Sources */,
-				0A08E3B61962DD2500A7B852 /* CATextLayer+NumberJump.m in Sources */,
 				0A08E3A7196266A200A7B852 /* NJDTestViewController.m in Sources */,
 				0A08E3871962667C00A7B852 /* NJDAppDelegate.m in Sources */,
+				32A70FC81AAAA74500A50C92 /* CACustomTextLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

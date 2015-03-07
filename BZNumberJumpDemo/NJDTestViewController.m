@@ -7,7 +7,6 @@
 //
 
 #import "NJDTestViewController.h"
-#import "CATextLayer+NumberJump.h"
 
 @interface NJDTestViewController ()
 
@@ -43,7 +42,7 @@
 }
 
 - (void)initTextLayer {
-    textLayer = [[CATextLayer alloc] init];
+    textLayer = [[CACustomTextLayer alloc] init];
     textLayer.string = @"0";
     textLayer.frame = CGRectMake(10, 80, 300, 100);
     textLayer.backgroundColor = [UIColor yellowColor].CGColor;

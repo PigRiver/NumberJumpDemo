@@ -9,7 +9,7 @@
 #import <QuartzCore/QuartzCore.h>
 #import "NJDBezierCurve.h"
 
-@interface CATextLayer (NumberJump)
+@interface CACustomTextLayer : CATextLayer
 
 - (void)jumpNumberWithDuration:(int)duration
                     fromNumber:(float)startNumber
